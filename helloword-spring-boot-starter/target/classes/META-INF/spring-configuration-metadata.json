@@ -1,0 +1,29 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.yanheng.PersonProperties",
+      "name": "spring.person",
+      "type": "com.yanheng.PersonProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.yanheng.PersonProperties",
+      "defaultValue": 0,
+      "name": "spring.person.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.yanheng.PersonProperties",
+      "name": "spring.person.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.yanheng.PersonProperties",
+      "defaultValue": "M",
+      "name": "spring.person.sex",
+      "type": "java.lang.String"
+    }
+  ]
+}
