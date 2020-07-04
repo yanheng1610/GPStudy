@@ -5,7 +5,7 @@ package com.test.actuator;
  * @date 2020-07-01 11:53
  * @description 二维数组
  */
-public class Demo1 {
+public class DemoApplication20200704001 {
 
 
 
