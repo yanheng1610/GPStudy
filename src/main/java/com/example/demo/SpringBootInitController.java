@@ -10,15 +10,15 @@ import org.springframework.web.bind.annotation.RestController;
  * @description 初始化控制层
  */
 @RestController
-@RequestMapping("/test")
+@RequestMapping(SpringBootInitController.PATH)
 public class SpringBootInitController {
 
-    public static final String PATH = "/prpLRegistExt";
+    public static final String PATH = "prpLRegistExt";
 
 
-    @RequestMapping(value = "/get",method = {RequestMethod.GET})
-    public void commonReturn(String name){
-        System.out.println("2333"+name);
+    @RequestMapping(value = "save",method = {RequestMethod.POST})
+    public void commonReturn(){
+        System.out.println("2333");
 
 
     }
