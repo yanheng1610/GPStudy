@@ -1,0 +1,4 @@
+com\yanheng\PersonProperties.class
+com\yanheng\PersonServiceAutoConfiguration.class
+META-INF\spring-configuration-metadata.json
+com\yanheng\PersonService.class
